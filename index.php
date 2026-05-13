@@ -90,9 +90,6 @@ $stat_row = mysqli_fetch_assoc($stat);
       </div>
     </div>
   </div>
-  <div>
-    <p>ahoj</p>
-  </div>
 
   <!-- Filter podľa kategórie -->
   <div class="mb-3">
