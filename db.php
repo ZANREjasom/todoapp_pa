@@ -6,8 +6,8 @@
 
 $host     = "localhost";   // adresa MySQL servera (XAMPP = localhost)
 $uzivatel = "root";        // MySQL používateľ (XAMPP default = root)
-$heslo    = "";            // MySQL heslo (XAMPP default = prázdne)
-$databaza = "todoapp";     // názov databázy
+$heslo    = "root";            // MySQL heslo (XAMPP default = prázdne)
+$databaza = "todoapp_pa";     // názov databázy
 
 // Vytvorí pripojenie pomocou mysqli
 $conn = mysqli_connect($host, $uzivatel, $heslo, $databaza);
